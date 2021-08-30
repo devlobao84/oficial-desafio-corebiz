@@ -1,0 +1,95 @@
+{
+  "footer": {
+      "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+      "children": ["flex-layout.row#footer", "flex-layout.row#footer-3-desktop"]
+  },
+  "footer-layout.mobile": {
+      "children": ["flex-layout.row#footer"]
+  },
+  "flex-layout.row#footer": {
+      "props": {
+          "blockClass": "footer",
+          "horizontalAlign": "center",
+          "fullWidth": true,
+          "paddingTop": 6,
+          "paddingBottom": 6
+      },
+      "children": [
+          "flex-layout.col#social"
+      ]
+  },
+"flex-layout.col#social": {
+  "props": {
+      "blockClass": "social-container",
+      "paddingLeft": 8,
+      "textPosition": "CENTER",
+      "preventVerticalStretch": true
+  },
+  "children": [
+      "flex-layout.row#follow-us",
+      "flex-layout.row#social-icons"
+  ]
+},
+"flex-layout.row#follow-us": {
+  "children": ["rich-text#follow-us"]
+},
+"rich-text#follow-us": {
+  "props": {
+      "text": "*Siga a gente*",
+      "blockClass": "footer-text"
+  }
+},
+
+"flex-layout.row#social-icons": {
+  "props": {
+      "blockClass": "footer-image-container",
+      "preventHorizontalStretch": true
+  },
+  "children": ["image#instagram", "image#facebook", "image#linkedin"]
+},
+"image#instagram": {
+  "props": {
+      "blockClass": "footer-image",
+      "maxHeight": 24,
+      "link": { "url": "https://www.instagram.com/corebizag/" },
+      "title": "Instagram"
+  }
+},
+
+"image#facebook": {
+  "props": {
+      "blockClass": "footer-image",
+      "maxHeight": 24,
+      "link": { "url": "https://pt-br.facebook.com/corebiz.ag/" },
+      "title": "Facebook"
+  }
+},
+
+"image#linkedin": {
+  "props": {
+      "blockClass": "footer-image",
+      "maxHeight": 24,
+      "link": {
+          "url": "https://www.linkedin.com/company/corebiz-brasil"
+      },
+      "title": "LinkedIn"
+  }
+},
+
+
+"flex-layout.row#footer-3-desktop": {
+  "children": ["rich-text#footer"],
+  "props": {
+    "blockClass": "credits"
+  }
+},
+"rich-text#footer": {
+  "props": {
+    "text": "Desenvolvido pelo grupo 18 Hiring Coders 2021 | © Copyright -  Todos os diretos reservados a Corebiz",
+    "textPosition": "CENTER",
+    "blockClass": "footer"
+  }
+}
+}
