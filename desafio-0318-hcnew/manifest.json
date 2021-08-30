@@ -64,6 +64,7 @@
     "vtex.tab-layout": "0.x",
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x",
+    "vtex.store-newsletter": "1.x",
     "hiringcoders202118.formlead": "0.x"
   },
   "peerDependencies": {},

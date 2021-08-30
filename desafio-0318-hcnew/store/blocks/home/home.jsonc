@@ -5,15 +5,13 @@
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#Clientes",
       "flex-layout.row#afterProduct",
-      "form18",
       "flex-layout.row#produtos",
       "flex-layout.row#shelf",
-      "list-context.product-list"
+      "list-context.product-list",
+      "form18"
+
     ]
   },
-
-  /* Editandoodedede */
-  /* Editandoodedede */
   /* Editandoodedede */
 
   "flex-layout.row#principal": {
@@ -76,6 +74,7 @@
       "width": "100%"
     }
   },
+
   "flex-layout.row#produtos": {
     "props": {
       "src": "assets/background03.png",
@@ -84,9 +83,9 @@
     },
     "children": [
       "rich-text#shelf-title"
-
     ]
   },
+
   "rich-text#shelf-title": {
     "props": {
       "text": "## Nossos serviços",
@@ -95,6 +94,13 @@
       "textPosition": "CENTER"
     }
   },
+  "form18": {
+    "props": {
+      "marginTop": "50%"
+
+    }
+  },
+
   "flex-layout.row#afterProduct": {
     "props": {
       "blockClass": "ContainerClientes"
@@ -141,6 +147,22 @@
     ]
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

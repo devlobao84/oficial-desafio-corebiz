@@ -11,13 +11,10 @@
   opacity: 1;
 }
 
-.productBrand, .brandName {
+ .brandName {
   color: white;
 }
 
-.nameContainer {
-  color:white;
-}
 
 @media screen and (max-width: 40em) {
   .container :global(.vtex-modal-layout-0-x-triggerContainer) {
