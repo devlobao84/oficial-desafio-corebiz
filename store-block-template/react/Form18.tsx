@@ -20,12 +20,11 @@ const Lead18: StorefrontFunctionComponent = () => {
           nome, email
         })
     }
-
   {/* escopo do form */}
 
     return (
         <form className={classes.form} onSubmit={handleSubmit}>
-            <div>
+            <div className={classes.form}>
                 <label htmlFor="nome">
                     Nome
                 </label>                
@@ -43,3 +42,6 @@ const Lead18: StorefrontFunctionComponent = () => {
 }
 
 export default Lead18
+
+
+
