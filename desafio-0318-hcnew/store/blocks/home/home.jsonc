@@ -5,6 +5,7 @@
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#Clientes",
       "flex-layout.row#afterProduct",
+      "form18",
       "flex-layout.row#produtos",
       "flex-layout.row#shelf",
       "list-context.product-list"
@@ -83,6 +84,7 @@
     },
     "children": [
       "rich-text#shelf-title"
+
     ]
   },
   "rich-text#shelf-title": {
