@@ -16,16 +16,15 @@ const Lead18: StorefrontFunctionComponent = () => {
 
     const handleSubmit = (e: React.FormEvent<any>) => {
         e.preventDefault()
-        axios.post('https://c2rcbzh5tj.execute-api.us-east-2.amazonaws.com/items',{
-          nome, email
+        axios.put('https://c2rcbzh5tj.execute-api.us-east-2.amazonaws.com/items',{
+          name: nome, id: email, phone: "phone", type: "cliente", date:  "01/01/2021"
         })
     }
-
   {/* escopo do form */}
 
     return (
         <form className={classes.form} onSubmit={handleSubmit}>
-            <div>
+            <div className={classes.form}>
                 <label htmlFor="nome">
                     Nome
                 </label>                
@@ -37,9 +36,19 @@ const Lead18: StorefrontFunctionComponent = () => {
                 </label>                
                 <input onChange={handleEmail} value={email} id="email" />
             </div>
-            <button>Enviar</button>
+            <button>Cadastrar</button>
         </form>
     )
 }
 
 export default Lead18
+
+
+
+
+
+
+
+
+
+
