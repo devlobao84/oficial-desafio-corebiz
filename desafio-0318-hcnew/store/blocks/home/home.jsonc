@@ -4,11 +4,10 @@
       "flex-layout.row#principal",
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#Clientes",
-      "flex-layout.row#afterProduct",
+      "form18",
       "flex-layout.row#produtos",
       "flex-layout.row#shelf",
-      "list-context.product-list",
-      "form18"
+      "list-context.product-list"
 
     ]
   },
@@ -106,8 +105,8 @@
       "blockClass": "ContainerClientes"
     },
     "children": [
-      "rich-text#bannerafterproduto",
-      "image#banneafterproduto"
+      "rich-text#bannerafterproduto"
+
     ]
   },
   "rich-text#bannerafterproduto": {
@@ -115,13 +114,6 @@
       "text": "corebiz na mídia",
       "blockClass":"Midia"
 
-    }
-  },
-  "image#banneafterproduto": {
-    "props": {
-      "src": "assets/banner-after-product.jpg",
-      "maxHeight": "100%",
-      "width": "100%"
     }
   },
 
